@@ -89,14 +89,15 @@ let filteredNumbers = numbers.filter(test);
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
   return accumulator + currentValue;
-}
+} 
 let sum = numbers.reduce(add);
 ```
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
-function add(accumulator, currentValue) {
-  console.log(accumulator + currentValue);
+function add(accumulator,  currentValue){
+  console.log(accumulator  +  currentValue);
 }
 let sum = numbers.reduce(add);
+
 ```
